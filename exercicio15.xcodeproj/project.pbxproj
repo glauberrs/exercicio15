@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61F38BBB1979BF1B000375AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F38BBA1979BF1B000375AF /* Foundation.framework */; };
+		61F38BBD1979BF1B000375AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F38BBC1979BF1B000375AF /* CoreGraphics.framework */; };
+		61F38BBF1979BF1B000375AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F38BBE1979BF1B000375AF /* UIKit.framework */; };
+		61F38BC11979BF1B000375AF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F38BC01979BF1B000375AF /* CoreData.framework */; };
+		61F38BC71979BF1B000375AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61F38BC51979BF1B000375AF /* InfoPlist.strings */; };
+		61F38BC91979BF1B000375AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F38BC81979BF1B000375AF /* main.m */; };
+		61F38BCD1979BF1B000375AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F38BCC1979BF1B000375AF /* AppDelegate.m */; };
+		61F38BD01979BF1B000375AF /* exercicio15.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61F38BCE1979BF1B000375AF /* exercicio15.xcdatamodeld */; };
+		61F38BD21979BF1B000375AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F38BD11979BF1B000375AF /* Images.xcassets */; };
+		61F38BD91979BF1B000375AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F38BD81979BF1B000375AF /* XCTest.framework */; };
+		61F38BDA1979BF1B000375AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F38BBA1979BF1B000375AF /* Foundation.framework */; };
+		61F38BDB1979BF1B000375AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F38BBE1979BF1B000375AF /* UIKit.framework */; };
+		61F38BDC1979BF1B000375AF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F38BC01979BF1B000375AF /* CoreData.framework */; };
+		61F38BE41979BF1B000375AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61F38BE21979BF1B000375AF /* InfoPlist.strings */; };
+		61F38BE61979BF1B000375AF /* exercicio15Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F38BE51979BF1B000375AF /* exercicio15Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61F38BDD1979BF1B000375AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F38BAF1979BF19000375AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F38BB61979BF1A000375AF;
+			remoteInfo = exercicio15;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61F38BB71979BF1A000375AF /* exercicio15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercicio15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F38BBA1979BF1B000375AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61F38BBC1979BF1B000375AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		61F38BBE1979BF1B000375AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		61F38BC01979BF1B000375AF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		61F38BC41979BF1B000375AF /* exercicio15-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "exercicio15-Info.plist"; sourceTree = "<group>"; };
+		61F38BC61979BF1B000375AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61F38BC81979BF1B000375AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61F38BCA1979BF1B000375AF /* exercicio15-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "exercicio15-Prefix.pch"; sourceTree = "<group>"; };
+		61F38BCB1979BF1B000375AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61F38BCC1979BF1B000375AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61F38BCF1979BF1B000375AF /* exercicio15.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = exercicio15.xcdatamodel; sourceTree = "<group>"; };
+		61F38BD11979BF1B000375AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		61F38BD71979BF1B000375AF /* exercicio15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exercicio15Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F38BD81979BF1B000375AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		61F38BE11979BF1B000375AF /* exercicio15Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "exercicio15Tests-Info.plist"; sourceTree = "<group>"; };
+		61F38BE31979BF1B000375AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61F38BE51979BF1B000375AF /* exercicio15Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exercicio15Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61F38BB41979BF1A000375AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F38BBD1979BF1B000375AF /* CoreGraphics.framework in Frameworks */,
+				61F38BC11979BF1B000375AF /* CoreData.framework in Frameworks */,
+				61F38BBF1979BF1B000375AF /* UIKit.framework in Frameworks */,
+				61F38BBB1979BF1B000375AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F38BD41979BF1B000375AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F38BD91979BF1B000375AF /* XCTest.framework in Frameworks */,
+				61F38BDC1979BF1B000375AF /* CoreData.framework in Frameworks */,
+				61F38BDB1979BF1B000375AF /* UIKit.framework in Frameworks */,
+				61F38BDA1979BF1B000375AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61F38BAE1979BF19000375AF = {
+			isa = PBXGroup;
+			children = (
+				61F38BC21979BF1B000375AF /* exercicio15 */,
+				61F38BDF1979BF1B000375AF /* exercicio15Tests */,
+				61F38BB91979BF1A000375AF /* Frameworks */,
+				61F38BB81979BF1A000375AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61F38BB81979BF1A000375AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F38BB71979BF1A000375AF /* exercicio15.app */,
+				61F38BD71979BF1B000375AF /* exercicio15Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F38BB91979BF1A000375AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61F38BBA1979BF1B000375AF /* Foundation.framework */,
+				61F38BBC1979BF1B000375AF /* CoreGraphics.framework */,
+				61F38BBE1979BF1B000375AF /* UIKit.framework */,
+				61F38BC01979BF1B000375AF /* CoreData.framework */,
+				61F38BD81979BF1B000375AF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61F38BC21979BF1B000375AF /* exercicio15 */ = {
+			isa = PBXGroup;
+			children = (
+				61F38BCB1979BF1B000375AF /* AppDelegate.h */,
+				61F38BCC1979BF1B000375AF /* AppDelegate.m */,
+				61F38BD11979BF1B000375AF /* Images.xcassets */,
+				61F38BCE1979BF1B000375AF /* exercicio15.xcdatamodeld */,
+				61F38BC31979BF1B000375AF /* Supporting Files */,
+			);
+			path = exercicio15;
+			sourceTree = "<group>";
+		};
+		61F38BC31979BF1B000375AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61F38BC41979BF1B000375AF /* exercicio15-Info.plist */,
+				61F38BC51979BF1B000375AF /* InfoPlist.strings */,
+				61F38BC81979BF1B000375AF /* main.m */,
+				61F38BCA1979BF1B000375AF /* exercicio15-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61F38BDF1979BF1B000375AF /* exercicio15Tests */ = {
+			isa = PBXGroup;
+			children = (
+				61F38BE51979BF1B000375AF /* exercicio15Tests.m */,
+				61F38BE01979BF1B000375AF /* Supporting Files */,
+			);
+			path = exercicio15Tests;
+			sourceTree = "<group>";
+		};
+		61F38BE01979BF1B000375AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61F38BE11979BF1B000375AF /* exercicio15Tests-Info.plist */,
+				61F38BE21979BF1B000375AF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61F38BB61979BF1A000375AF /* exercicio15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F38BE91979BF1C000375AF /* Build configuration list for PBXNativeTarget "exercicio15" */;
+			buildPhases = (
+				61F38BB31979BF1A000375AF /* Sources */,
+				61F38BB41979BF1A000375AF /* Frameworks */,
+				61F38BB51979BF1A000375AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = exercicio15;
+			productName = exercicio15;
+			productReference = 61F38BB71979BF1A000375AF /* exercicio15.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61F38BD61979BF1B000375AF /* exercicio15Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F38BEC1979BF1C000375AF /* Build configuration list for PBXNativeTarget "exercicio15Tests" */;
+			buildPhases = (
+				61F38BD31979BF1B000375AF /* Sources */,
+				61F38BD41979BF1B000375AF /* Frameworks */,
+				61F38BD51979BF1B000375AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F38BDE1979BF1B000375AF /* PBXTargetDependency */,
+			);
+			name = exercicio15Tests;
+			productName = exercicio15Tests;
+			productReference = 61F38BD71979BF1B000375AF /* exercicio15Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61F38BAF1979BF19000375AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jackson F. de A. Mafra";
+				TargetAttributes = {
+					61F38BD61979BF1B000375AF = {
+						TestTargetID = 61F38BB61979BF1A000375AF;
+					};
+				};
+			};
+			buildConfigurationList = 61F38BB21979BF1A000375AF /* Build configuration list for PBXProject "exercicio15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61F38BAE1979BF19000375AF;
+			productRefGroup = 61F38BB81979BF1A000375AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61F38BB61979BF1A000375AF /* exercicio15 */,
+				61F38BD61979BF1B000375AF /* exercicio15Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61F38BB51979BF1A000375AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F38BC71979BF1B000375AF /* InfoPlist.strings in Resources */,
+				61F38BD21979BF1B000375AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F38BD51979BF1B000375AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F38BE41979BF1B000375AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61F38BB31979BF1A000375AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F38BCD1979BF1B000375AF /* AppDelegate.m in Sources */,
+				61F38BD01979BF1B000375AF /* exercicio15.xcdatamodeld in Sources */,
+				61F38BC91979BF1B000375AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F38BD31979BF1B000375AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F38BE61979BF1B000375AF /* exercicio15Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61F38BDE1979BF1B000375AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F38BB61979BF1A000375AF /* exercicio15 */;
+			targetProxy = 61F38BDD1979BF1B000375AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61F38BC51979BF1B000375AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F38BC61979BF1B000375AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		61F38BE21979BF1B000375AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F38BE31979BF1B000375AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61F38BE71979BF1B000375AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61F38BE81979BF1B000375AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61F38BEA1979BF1C000375AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "exercicio15/exercicio15-Prefix.pch";
+				INFOPLIST_FILE = "exercicio15/exercicio15-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		61F38BEB1979BF1C000375AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "exercicio15/exercicio15-Prefix.pch";
+				INFOPLIST_FILE = "exercicio15/exercicio15-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		61F38BED1979BF1C000375AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/exercicio15.app/exercicio15";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "exercicio15/exercicio15-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "exercicio15Tests/exercicio15Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		61F38BEE1979BF1C000375AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/exercicio15.app/exercicio15";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "exercicio15/exercicio15-Prefix.pch";
+				INFOPLIST_FILE = "exercicio15Tests/exercicio15Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F38BB21979BF1A000375AF /* Build configuration list for PBXProject "exercicio15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F38BE71979BF1B000375AF /* Debug */,
+				61F38BE81979BF1B000375AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F38BE91979BF1C000375AF /* Build configuration list for PBXNativeTarget "exercicio15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F38BEA1979BF1C000375AF /* Debug */,
+				61F38BEB1979BF1C000375AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61F38BEC1979BF1C000375AF /* Build configuration list for PBXNativeTarget "exercicio15Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F38BED1979BF1C000375AF /* Debug */,
+				61F38BEE1979BF1C000375AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		61F38BCE1979BF1B000375AF /* exercicio15.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61F38BCF1979BF1B000375AF /* exercicio15.xcdatamodel */,
+			);
+			currentVersion = 61F38BCF1979BF1B000375AF /* exercicio15.xcdatamodel */;
+			path = exercicio15.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 61F38BAF1979BF19000375AF /* Project object */;
+}
